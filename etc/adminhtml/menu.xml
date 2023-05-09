@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Orangecat_EmailCatch::main" title="EMAIL" translate="title" module="Orangecat_EmailCatch" sortOrder="800" parent="Magento_Backend::system" resource="Orangecat_EmailCatch::main"/>
+        <add id="Orangecat_EmailCatch::log" action="emailcatch/log/index" title="View Emails Log" translate="title" module="Orangecat_EmailCatch" sortOrder="10" parent="Orangecat_EmailCatch::main" resource="Orangecat_EmailCatch::log"/>
+        <add id="Orangecat_EmailCatch::magesmt" title="Configuration SMTP" module="Orangecat_EmailCatch" sortOrder="20" action="adminhtml/system_config/edit/section/system" resource="Orangecat_EmailCatch::config" parent="Orangecat_EmailCatch::main"/>
+        <add id="Orangecat_EmailCatch::config" title="Configuration Logs" module="Orangecat_EmailCatch" sortOrder="30" action="adminhtml/system_config/edit/section/emailcatch" resource="Orangecat_EmailCatch::config" parent="Orangecat_EmailCatch::main"/>
+    </menu>
+</config>

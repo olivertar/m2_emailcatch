@@ -1,0 +1,49 @@
+Reports,Reportes
+"Log doesn't exist.","Log no existe."
+"A total of %1 email(s) have been deleted.","Un total de %1 email(s) han sido borrados."
+"Email Log has been successfully deleted","Logs de Email Log han sido borrados"
+"Unable to find the rule","No es posible encontrar la regla"
+"Emails Log","Log Emails"
+"A total of %1 email(s) have been sent.","Un total de %1 email(s) han sido enviados."
+"Email Preview","Vista previa Email"
+"An error occurred. The email template can not be opened for preview.","Error, la plantilla de email para la vista previa no puede abrirse."
+"Email successfully was send.","Email enviado."
+"Something went wrong.","Algo salio mal."
+Success,Enviado
+Failed,Falló
+Blocked,Blockeado
+"Preview Email","Vista previa Email"
+"Delete Email Log","Borrar logs Email"
+Delete,Borrar
+"Are you sure you want to delete?","Esta seguro de borrarlo?"
+"Resend Email","Re enviar Email"
+"Are you sure you want to resend the selected email?","Seguro de re enviar los emails selecconados?"
+"Email Log","Logs Email"
+"View Emails Log","Ver logs Email"
+"SMTP Configuration","Configuración SMTP"
+"Logs Configuration","Configuración Logs"
+EMAIL,EMAIL
+"Orangecat","Orangecat"
+"Log Settings","Configuracion Log"
+"Enable Log Outgoing Emails","Habilitar Log de Emails"
+"See the all emails and their contents","Ver los emails y su contenido"
+"Log Clean Every (days)","Vaciar Log cada (dias)"
+"<strong>Day(s).</strong> When empty or zero, the Email log will not be cleaned.","<strong>Dia(s).</strong> Si el valor es cero o vacio los logs no se borraran."
+Developer,Desarrollador
+"Enable Redirect Messages","Habilitar redireccion emails"
+"<strong>Set the option to ‘Yes’ in order not to send emails actually.</strong> That can be used for debug or development purposes","<strong>Configurar ‘SI’ para no enviar emails a destinatario original.</strong> Uselo con proposito de desarrollo o depuracion"
+"Redirect Email Address","Redireccionar a la direccion de Email"
+"Clear Emails Log","Borrar log Emails"
+"Delete logs","Borrar logs"
+"Delete selected logs?","Borrarlogs seleccionados?"
+Resend,Re enviar
+"Resend selected logs?","Re enviar logs seleccionados?"
+ID,ID
+"Sender Data","Data remitente"
+"Recipient Data","Data destinatario"
+"Email Subject","Asunto Email"
+"BCC Emails","BCC Emails"
+"CC Emails","CC Emails"
+"Email Status","Estado Email"
+"Fail Message","Message error"
+"Send Date","Fecha envio"

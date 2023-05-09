@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Orangecat\EmailCatch\Model\ResourceModel\Log\Grid\Collection">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">email_log</argument>
+            <argument name="eventPrefix" xsi:type="string">email_log_grid_collection</argument>
+            <argument name="eventObject" xsi:type="string">email_log_grid_collection</argument>
+            <argument name="resourceModel" xsi:type="string">Orangecat\EmailCatch\Model\ResourceModel\Rule</argument>
+        </arguments>
+    </type>
+</config>

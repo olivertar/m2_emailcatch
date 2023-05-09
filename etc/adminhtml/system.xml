@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="orangecat" translate="label" sortOrder="400">
+            <label>Orangecat</label>
+        </tab>
+        <section id="emailcatch" translate="label" type="text" sortOrder="061532" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Email Log</label>
+            <tab>orangecat</tab>
+            <resource>Orangecat_EmailCatch::config</resource>
+            <group id="log" translate="label" type="text" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Log Settings</label>
+                <field id="enable" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Enable Log Outgoing Emails</label>
+                    <comment><![CDATA[See the all emails and their contents]]></comment>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="log_clean" translate="label comment" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Log Clean Every (days)</label>
+                    <comment><![CDATA[<strong>Day(s).</strong> When empty or zero, the Email log will not be cleaned.]]></comment>
+                    <validate>integer</validate>
+                    <depends>
+                        <field id="enable">1</field>
+                    </depends>
+                </field>
+            </group>
+            <group id="debug" translate="label" type="text" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Developer</label>
+                <field id="enable" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Enable Redirect Messages</label>
+                    <comment><![CDATA[<strong>Set the option to ‘Yes’ in order not to send emails actually.</strong> That can be used for debug or development purposes]]></comment>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="redirect_email_addresses" translate="label" type="text" sortOrder="20" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Redirect Email Address</label>
+                    <validate>validate-email</validate>
+                    <depends>
+                        <field id="enable">1</field>
+                    </depends>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

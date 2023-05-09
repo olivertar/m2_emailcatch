@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Store/etc/config.xsd">
+    <default>
+        <emailcatch>
+            <log>
+                <enable>1</enable>
+                <log_clean>30</log_clean>
+            </log>
+            <debug>
+                <developer>0</developer>
+                <redirect_email_addresses>example@example.com</redirect_email_addresses>
+            </debug>
+        </emailcatch>
+    </default>
+</config>

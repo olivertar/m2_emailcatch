@@ -1,0 +1,50 @@
+Reports,Reports
+"Log doesn't exist.","Log doesn't exist."
+"A total of %1 email(s) have been deleted.","A total of %1 email(s) have been deleted."
+"Email Log has been successfully deleted","Email Log has been successfully deleted"
+"Unable to find the rule","Unable to find the rule"
+"Emails Log","Emails Log"
+"A total of %1 email(s) have been sent.","A total of %1 email(s) have been sent."
+"Email Preview","Email Preview"
+"An error occurred. The email template can not be opened for preview.","An error occurred. The email template can not be opened for preview."
+"Email successfully was send.","Email successfully was send."
+"Something went wrong.","Something went wrong."
+Success,Success
+Failed,Failed
+Blocked,Blocked
+"<<<< REDIRECTED >>>>","<<<< REDIRECTED >>>>"
+"Preview Email","Preview Email"
+"Delete Email Log","Delete Email Log"
+Delete,Delete
+"Are you sure you want to delete?","Are you sure you want to delete?"
+"Resend Email","Resend Email"
+"Are you sure you want to resend the selected email?","Are you sure you want to resend the selected email?"
+"Email Log","Email Log"
+"View Emails Log","View Emails Log"
+"SMTP Configuration","SMTP Configuration"
+"Logs Configuration","Logs Configuration"
+EMAIL,EMAIL
+"Orangecat","Orangecat"
+"Log Settings","Log Settings"
+"Enable Log Outgoing Emails","Enable Log Outgoing Emails"
+"See the all emails and their contents","See the all emails and their contents"
+"Log Clean Every (days)","Log Clean Every (days)"
+"<strong>Day(s).</strong> When empty or zero, the Email log will not be cleaned.","<strong>Day(s).</strong> When empty or zero, the Email log will not be cleaned."
+Developer,Developer
+"Enable Redirect Messages","Enable Redirect Messages"
+"<strong>Set the option to ‘Yes’ in order not to send emails actually.</strong> That can be used for debug or development purposes","<strong>Set the option to ‘Yes’ in order not to send emails actually.</strong> That can be used for debug or development purposes"
+"Redirect Email Address","Redirect Email Address"
+"Clear Emails Log","Clear Emails Log"
+"Delete logs","Delete logs"
+"Delete selected logs?","Delete selected logs?"
+Resend,Resend
+"Resend selected logs?","Resend selected logs?"
+ID,ID
+"Sender Data","Sender Data"
+"Recipient Data","Recipient Data"
+"Email Subject","Email Subject"
+"BCC Emails","BCC Emails"
+"CC Emails","CC Emails"
+"Email Status","Email Status"
+"Fail Message","Fail Message"
+"Send Date","Send Date"
